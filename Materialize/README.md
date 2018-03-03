@@ -1,24 +1,30 @@
-SITE WEB – MAISON D’HOTE
-Durant votre formation à Sarcelles, vous avez transformé votre maison, en maison d’hôte.
-Pour booster la location, vous allez créer un site web en HTML, contenant 3 pages.
-Une page décrivant votre maison.
-Une Page décrivant votre région.
-Une page contenant un formulaire d‘inscription.
-
-Pour cela, vous allez suivre les instructions suivantes :
-Vous utilisez HTML5 et CSS3
-o Le site est responsive et consultable sur smartphone
-o Vous utilisez le framework Materialize
-o Vous mettez un bandeau contenant une image de fond
-o Vous utilisez un menu
-o Vous mettez des photos et des vidéos d’une maison fictive
-o Vous mettez des photos et des vidéos de votre région
-o Pour montrer votre région, vous utilisez un carrousel.
-o La page d’inscription contient au minimum
-	? Un nom et prénom
-	? Un email
-	? Un téléphone
-	? Des check-box options (Parking, Animal, Fumeur)
-	? Un radio button type de séjour (Séjour loisir, Séjour professionnel)
-	? Une combo-box nombre de personnes Une combo-box région d’origine
-	? Un bouton estimation du prix Un bouton envoi du formulaire
+<p>SITE WEB â€“ MAISON Dâ€™HOTE</p>
+<p>Durant votre formation Ã  Sarcelles, vous avez transformÃ© votre maison, en maison dâ€™hÃ´te.</p>
+<p>Pour booster la location, vous allez crÃ©er un site web en HTML, contenant 3 pages.</p>
+<ul>
+	<li>Une page dÃ©crivant votre maison.</li>
+	<li>Une Page dÃ©crivant votre rÃ©gion.</li>
+	<li>Une page contenant un formulaire dâ€˜inscription.</li>
+</ul>
+<p>Pour cela, vous allez suivre les instructions suivantes :
+Vous utilisez HTML5 et CSS3</p>
+<ul>
+	<li>Le site est responsive et consultable sur smartphone</li>
+	<li>Vous utilisez le framework Materialize</li>
+	<li>Vous mettez un bandeau contenant une image de fond</li>
+	<li>Vous utilisez un menu</li>
+	<li>Vous mettez des photos et des vidÃ©os dâ€™une maison fictive</li>
+	<li>Vous mettez des photos et des vidÃ©os de votre rÃ©gion</li>
+	<li>Pour montrer votre rÃ©gion, vous utilisez un carrousel.</li>
+	<li>La page dâ€™inscription contient au minimum
+		<ul>
+			<li>Un nom et prÃ©nom</li>
+			<li>Un email</li>
+			<li>Un tÃ©lÃ©phone</li>
+			<li>Des check-box options (Parking, Animal, Fumeur)</li>
+			<li>Un radio button type de sÃ©jour (SÃ©jour loisir, SÃ©jour professionnel)</li>
+			<li>Une combo-box nombre de personnes Une combo-box rÃ©gion dâ€™origine</li>
+			<li>Un bouton estimation du prix Un bouton envoi du formulaire</li>
+		</ul>
+	</li>
+</ul>
