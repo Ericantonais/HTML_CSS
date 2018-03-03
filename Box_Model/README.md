@@ -1,7 +1,8 @@
-Petits rappels sur :
-
-o block, inline, inline-block
-o width, height
-o border
-o padding
-o margin
+<p>Petits rappels sur :</p>
+			<ul>
+				<li>block, inline, inline-block</li>
+				<li>width, height</li>
+				<li>border</li>
+				<li>padding</li>
+				<li>margin</li>
+			</ul>
