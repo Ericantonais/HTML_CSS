@@ -1,0 +1,285 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #daede2;
+	z-index: 1;
+	font-family: Arial;
+	color: #3A3333;	
+}
+
+.dotted {
+	text-decoration: underline dotted;
+}
+
+
+/*
+---------- CONTENEUR BLEU ----------
+*/
+
+.conteneur_bleu {
+	width: 90%;
+	background-color: #77c4d3;
+	height: 3200px;
+	margin: 70px auto;
+	position: relative;
+}
+
+
+/*
+---------- SIDEBAR NOIRE FIXE ----------
+*/
+
+.sidebar_noire_fixe {
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(51,55,69,0.9);
+	width: 30%;
+}
+
+
+/*
+---------- INTRO ----------
+*/
+
+.intro {
+	width: 55%;
+	position: relative;
+	top: 60px;
+	left: 60px;
+}
+
+h1 {
+	width: 40%;
+	font-weight: 100;
+	text-transform: uppercase;
+	background-color: #EA2E49;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+h2 {
+	font-size: 100px;
+	font-weight: 900;
+	color: white;
+	margin-top: 0;
+}
+
+.intro1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+
+.intro2 {
+	color: white;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.intro a {
+	color: white;
+	text-decoration: none;
+	border-bottom: solid 1px grey;
+	transition: 0.5s;
+}
+
+.intro a:hover {
+	border-bottom: solid 1px red;
+}
+
+
+/*
+---------- BLOC ROAD ----------
+*/
+
+.road {
+	width: 70%;
+	background-color: white;
+	position: absolute;
+	top: 800px;
+	right: 475px;
+	padding: 20px 40px 20px 170px;
+	margin-left: 0;
+}
+
+.road p {
+	font-size: 20px;
+}
+
+
+/*
+---------- BLOC ABOUT ----------
+*/
+
+.about {
+	color: white;
+	width: 35%;
+	position: relative;
+	top: 700px;
+	left: 125px;
+}
+
+.about p {
+	font-size: 20px;
+}
+
+
+/*
+---------- BLOC ROUGE ----------
+*/
+
+.bloc_rouge {
+	color: white;
+	width: 45%;
+	position: absolute;
+	top: 1310px;
+	right: 70px;	
+	background-color: #DF3D57;
+	padding: 50px;
+}
+
+.bloc_rouge p {
+	font-size: 20px;
+}
+
+.bloc_rouge a {
+	color: white;	
+	text-decoration: none;
+	border-bottom: solid 1px grey;
+	transition: 0.5s;
+}
+
+.bloc_rouge a:hover {
+	border-bottom: 1px white solid;
+}
+
+
+/*
+---------- BENEFITS ----------
+*/
+
+.benefits {
+	width: 30%;
+	background-color: white;
+	position: relative;
+	top: 1000px;
+	left: 60px;
+	padding: 60px;
+}
+
+.benefits p {
+	font-size: 20px;
+}
+
+
+/*
+---------- REQUIREMENTS ----------
+*/
+
+.requirements {
+	background-color: white;
+	position: absolute;
+	top: 2050px;
+	right: 70px;
+	padding: 60px;
+	width: 60%;
+}
+
+.requirements p {
+	font-size: 20px;
+}
+
+.requirements2 {
+	border-top: 1px red solid;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+
+.requirements a {
+	color: #3A3333;	
+	text-decoration: none;
+	border-bottom: solid 1px grey;
+	transition: 0.5s;
+}
+
+.requirements a:hover {
+	border-bottom: solid 1px red;
+}
+
+
+/*
+---------- FOOTER ----------
+*/
+
+footer {
+	width: 45%;
+	position: relative;
+	top: 1252px;
+	background-color: #EAF298;
+	padding: 20px 20px 20px 60px;
+	left: 60px;
+	font-size: 18px;
+}
+
+footer a {
+	margin-right: 10px;
+	color: #3A3333;
+	text-decoration: none;
+	border-bottom: solid 1px grey;
+	transition: 0.5s;
+}
+
+footer a:hover {
+	border-bottom: solid 1px red;
+}
+
+/*
+---------- BLOC BEIGE ----------
+*/
+
+.bloc_beige {
+	width: 35%;
+	background-color: rgba(234,242, 152, 0.9);
+	position: absolute;
+	right: 0;
+	top: 60px;
+	padding: 50px 90px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+li {
+	list-style: none;
+	margin: 20px 0;
+	font-size: 18px;
+}
+
+ul {
+	padding: 0;
+}
+
+.bloc_beige a {
+	text-decoration: none;
+	border-bottom: solid 1px grey;
+	transition: 0.5s;
+	color: #3A3333;	
+}
+
+.bloc_beige a:hover {
+	border-bottom: solid 1px red;
+}
+
+.by {
+	color: #8C915B;
+}
