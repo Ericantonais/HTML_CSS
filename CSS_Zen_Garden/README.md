@@ -1,4 +1,6 @@
-Récréer ce site : http://www.csszengarden.com/217/
-o seulement avec des position : absolute, relative, fixed
-o pas de valeurs négatives
-o pas de responsive
+<p>RÃ©crÃ©er ce site : http://www.csszengarden.com/217/</p>
+			<ul>
+				<li>seulement avec des position : absolute, relative, fixed</li>
+				<li>pas de valeurs nÃ©gatives</li>
+				<li>pas de responsive</li>
+			</ul>
