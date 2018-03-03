@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+
+.container {
+	display: flex;
+	margin: auto;
+	width: 50%;}
+
+
+/* CARTE 1 */
+
+.carte {
+	max-width: 320px;}
+
+.carte {
+	perspective: 1000px;}
+
+.carte:hover .main {
+	transform: rotateX(180deg);
+	/* rotation autour de l'axe des abcisses */
+	transform-origin: 0 240px;}
+
+
+.carte, .devant, .arriere {
+	width: 320px;
+	height: 480px;}
+
+.main {
+	transition: 1s;
+	transform-style: preserve-3d;}
+
+.devant, .arriere {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;}
+
+.devant {
+	z-index: 2;
+	transform: rotateX(0deg);
+	background-color: red;}
+
+.arriere {
+	transform: rotateX(180deg);
+	background-color: black;
+	border-radius: 10px;
+	padding: 25px;
+	color: white;
+	box-sizing: border-box;
+	text-align: center;}
+
+.arriere a {
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background-color: orange;
+	margin: 50px auto 0;
+	text-align: center;
+	border-radius: 15px;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;}
+
+.arriere a:hover, {
+	background-color: orangered;}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+
+
+/* CARTE 2 */
+
+.carte2 {
+	max-width: 320px;}
+
+.carte2 {
+	perspective: 2000px;}
+
+.carte2:hover .main2 {
+	transform: rotate(360deg) rotateY(180deg);
+	transform-origin: 160px 0;}
+
+.carte2, .devant2, .arriere2 {
+	width: 320px;
+	height: 480px;}
+
+.main2 {
+	transition: 1s;
+	transform-style: preserve-3d;}
+
+.devant2, .arriere2 {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;}
+
+.devant2 {
+	z-index: 2;
+	transform: rotateY(0deg);
+	background-color: red;}
+
+.arriere2 {
+	transform: rotateY(180deg);
+	background-color: black;
+	border-radius: 10px;
+	padding: 25px;
+	color: white;
+	box-sizing: border-box;
+	text-align: center;}
+
+.arriere2 a {
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background-color: orange;
+	margin: 50px auto 0;
+	text-align: center;
+	border-radius: 15px;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+	left: 320px;}
+
+.arriere2 a:hover {
+	background-color: orangered;}
